@@ -9,7 +9,7 @@ import withTracker from "./withTracker";
 import AddCustomer from './components/AddUser/addUser'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./shards-dashboard/styles/shards-dashboards.1.1.0.min.css";
-import './App.css';
+
 
 export default () => (
   <Router basename={process.env.REACT_APP_BASENAME || ""}>
